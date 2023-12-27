@@ -26,12 +26,12 @@ ________________________________________________________________________________
 
 *****************************************************************************************************************
 
-pip3 install torch torchvision
-!git clone https://github.com/ultralytics/yolov5.git
-!git clone https://github.com/HumanSignal/labelImg.git
-pip install -r requirements.txt
-pip install pyqt5 lxml --upgrade
-cd labelImg && pyrcc5 -o libs/resources.py resources.qrc
+pip3 install torch torchvision 
+!git clone https://github.com/ultralytics/yolov5.git 
+!git clone https://github.com/HumanSignal/labelImg.git 
+pip install -r requirements.txt 
+pip install pyqt5 lxml --upgrade 
+cd labelImg && pyrcc5 -o libs/resources.py resources.qrc 
 
 *****************************************************************************************************************
 
