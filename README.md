@@ -7,7 +7,7 @@ qshi10@u.rochester.edu
 
 _________________________________________________________________________________________________________________
 
-Citations for Resources Used: 
+**Citations for Resources Used:**
 
 Nicholas Renotte
 Deep Drowsiness Detection using YOLO, Pytorch and Python
@@ -22,7 +22,7 @@ ________________________________________________________________________________
 
 
 
-Install Dependencies:
+**Install Dependencies:**
 
 *****************************************************************************************************************
 
@@ -37,7 +37,7 @@ cd labelImg && pyrcc5 -o libs/resources.py resources.qrc
 
 
 
-INCLUDE THIS AT TOP OF ALL CODE:
+**INCLUDE THIS AT TOP OF ALL CODE:**
 
 *****************************************************************************************************************
 import torch, matplotlib.pyplot as plt  
@@ -52,7 +52,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 
 
-Load Model:
+**Load Model:**
 *****************************************************************************************************************
 
 model =  torch.hub.load('ultralytics/yolov5', 'yolov5')
@@ -60,7 +60,7 @@ model =  torch.hub.load('ultralytics/yolov5', 'yolov5')
 
 
 
-To train custom model:
+**To train custom model:**
 *****************************************************************************************************************
 
 First you have to upload pictures and store them in the images folder. Then you have to use labelImg to classify them as YOLO format, using terminal
@@ -77,7 +77,7 @@ This took .91 hours of runtime, completed after around 400 epochs.
 *****************************************************************************************************************
 
 
-To run:
+**To run:**
 *****************************************************************************************************************
   python3 tutorial.py
 
