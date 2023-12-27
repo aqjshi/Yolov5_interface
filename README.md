@@ -4,6 +4,20 @@ Qingjian Shi
 qshi10@u.rochester.edu
 
 
+Citations for Resources Used: 
+
+Nicholas Renotte
+Deep Drowsiness Detection using YOLO, Pytorch and Python
+
+TzuTa Lin
+labelImg
+
+Glenn Jocher
+YOLOv5 by Ultralytics
+
+
+
+
 Install Dependencies:
 pip3 install torch torchvision
 !git clone https://github.com/ultralytics/yolov5.git
@@ -52,14 +66,5 @@ To run:
 This is a live-feed deep detection program in python that analyzes trained on custom model using labeImg and YOLOv5
 
 
-Citations: 
 
-Nicholas Renotte
-Deep Drowsiness Detection using YOLO, Pytorch and Python
-
-TzuTa Lin
-labelImg
-
-Glenn Jocher
-YOLOv5 by Ultralytics
 
