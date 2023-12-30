@@ -1,9 +1,13 @@
+Research and Results: https://docs.google.com/document/d/135qUlDVUjw6eAu72WsR3m1MdsUuOxGmbNdGwa7rSkxk/edit?usp=sharing 
+
+
+
 Dec 26 2023
 
 Qingjian Shi
 qshi10@u.rochester.edu
 
-Research and Results: https://docs.google.com/document/d/135qUlDVUjw6eAu72WsR3m1MdsUuOxGmbNdGwa7rSkxk/edit?usp=sharing 
+
 
 Install Dependencies:
 pip3 install torch torchvision
